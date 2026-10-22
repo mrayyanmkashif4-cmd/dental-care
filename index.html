@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Care </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body tabindex="0">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container-fluid px-lg-5">
+        <a class="navbar-brand fw-bold" href="#home"><span class="logo-icon">🦷</span> DENTAL CARE</a>
+        
+        <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse order-3" id="navbarMenu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">EDUCATION</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#education">Professional Education</a></li>
+                        <li><a class="dropdown-item" href="#patient-education">Patient Education</a></li>
+                    </ul></li>
+                <li class="nav-item"><a class="nav-link" href="#research-section">RESEARCH</a></li>
+                <li class="nav-item"><a class="nav-link" href="#products">PRODUCTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">GALLERY</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="ms-lg-3 my-2 my-lg-0">
+                <a href="#appointment" class="btn enquire-btn">ENQUIRE NOW</a>
+            </div>
+        </div>
+        <!-- Visitor count: top right, beside logo image -->
+        <div class="visitor-box order-1 order-lg-last" title="Total visitors">
+            <img class="visitor-logo" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%231a1a1a' stroke='%23c2a382' stroke-width='1.5'/%3E%3Cpath d='M10 9c2-1.5 4 .5 6 .5s4-2 6-.5c2 1.5 1.5 5 0 8-1 2-1 6-3 6-1.7 0-1.3-4-3-4s-1.3 4-3 4c-2 0-2-4-3-6-1.5-3-2-6.5 0-8z' fill='%23c2a382'/%3E%3C/svg%3E" alt="Dental Care logo">
+            <div><span class="visitor-label">VISITORS</span><span class="visitor-count" id="visitorCount">0</span></div>
+        </div>
+    </div>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero-section">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active hero-slide-1">
+                <div class="overlay"></div>
+                <div class="container h-100 d-flex align-items-center">
+                    <div class="hero-content">
+                        <span class="sub-heading">WELCOME TO DENTAL CARE</span>
+                        <h1>A CLEAR CHOICE <span>OF CONFIDENCE</span></h1>
+                        <p>Modern dental care, advanced technology and complete patient satisfaction under one roof.</p>
+                        <a href="#appointment" class="btn main-gold-btn">FREE CONSULTATION</a>
+                        <a href="#services" class="btn outline-light-btn">OUR SERVICES</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item hero-slide-2">
+                <div class="overlay"></div>
+                <div class="container h-100 d-flex align-items-center">
+                    <div class="hero-content">
+                        <span class="sub-heading">AESTHETICS &middot; IMPLANTS &middot; SMILE DESIGN</span>
+                        <h1>YOUR SMILE IS OUR <span>PRIORITY</span></h1>
+                        <p>Professional treatments by expert doctors in a relaxed and comfortable environment.</p>
+                        <a href="#appointment" class="btn main-gold-btn">BOOK APPOINTMENT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+    </div>
+</section>
+
+<!-- STATS -->
+<section class="stats-strip">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-6 col-md-3"><h3 class="stat-num">15+</h3><p class="text-muted-custom mb-0">Years Experience</p></div>
+            <div class="col-6 col-md-3"><h3 class="stat-num">10,000+</h3><p class="text-muted-custom mb-0">Happy Patients</p></div>
+            <div class="col-6 col-md-3"><h3 class="stat-num">12</h3><p class="text-muted-custom mb-0">Expert Doctors</p></div>
+            <div class="col-6 col-md-3"><h3 class="stat-num">25+</h3><p class="text-muted-custom mb-0">Awards Won</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-5 section-pad">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <span class="sub-gold-title">ABOUT DENTAL CARE</span>
+                <h2 class="section-heading mb-4">Caring For Your Smile With Excellence</h2>
+                <p class="text-muted-custom">We combine modern technology with a gentle, personal approach. From routine checkups to complete smile makeovers, our team makes every visit comfortable and stress free.</p>
+                <p class="text-muted-custom">Our clinic follows strict sterilisation standards and uses digital X-rays, laser treatments and 3D planning for accurate, long-lasting results.</p>
+                <ul class="check-list">
+                    <li><i class="bi bi-check-circle-fill icon-gold"></i> Experienced, certified dentists</li>
+                    <li><i class="bi bi-check-circle-fill icon-gold"></i> Painless, modern treatments</li>
+                    <li><i class="bi bi-check-circle-fill icon-gold"></i> Affordable and transparent pricing</li>
+                </ul>
+                <p class="signature-text mt-4">Dr. Amal Ali</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-img-frame">
+                  <div ><img src="pic.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About: contact details -->
+        <div class="row g-4 mt-4">
+            <div class="col-md-4">
+                <div class="contact-info-card d-flex align-items-center p-3 h-100">
+                    <div class="icon-box me-3"><i class="bi bi-geo-alt fs-3 icon-gold"></i></div>
+                    <div><h6 class="mb-1 text-white">Address</h6><p class="text-muted-custom mb-0">Business Bay, Sector F, DHA Phase 1, Islamabad, Pakistan</p></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-info-card d-flex align-items-center p-3 h-100">
+                    <div class="icon-box me-3"><i class="bi bi-telephone fs-3 icon-gold"></i></div>
+                    <div><h6 class="mb-1 text-white">Phone</h6><p class="text-muted-custom mb-0">0300 2964311</p></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-info-card d-flex align-items-center p-3 h-100">
+                    <div class="icon-box me-3"><i class="bi bi-envelope fs-3 icon-gold"></i></div>
+                    <div><h6 class="mb-1 text-white">Email</h6><p class="text-muted-custom mb-0">mrayyanmkashif4@gmail.com</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-5 section-pad alt-bg">
+    <div class="container">
+        <div class="text-center mb-4">
+            <span class="sub-gold-title">WHAT WE OFFER</span>
+            <h2 class="section-heading">Our Dental Services</h2>
+            <p class="text-muted-custom mx-auto mt-3" style="max-width:650px;">From routine checkups to complete smile makeovers, we provide every treatment you need under one roof, using modern technology and a gentle approach.</p>
+        </div>
+
+        <div class="svc-block"><div class="row g-4 align-items-center">
+            <div class="col-md-2 d-flex justify-content-md-center"><div class="svc-icon"><i class="bi bi-heart-pulse"></i></div></div>
+            <div class="col-md-10"><h3>General Dentistry</h3>
+                <p class="text-muted-custom">Regular checkups and cleaning keep your teeth and gums healthy and catch problems early, before they become painful or expensive.</p>
+                <div class="row"><div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Full oral examination</li><li><i class="bi bi-check-circle-fill"></i>Digital X-rays</li><li><i class="bi bi-check-circle-fill"></i>Scaling &amp; polishing</li></ul></div>
+                <div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Tooth-coloured fillings</li><li><i class="bi bi-check-circle-fill"></i>Gum disease treatment</li><li><i class="bi bi-check-circle-fill"></i>Simple &amp; surgical extractions</li></ul></div></div>
+            </div></div></div>
+
+        <div class="svc-block"><div class="row g-4 align-items-center">
+            <div class="col-md-2 d-flex justify-content-md-center"><div class="svc-icon"><i class="bi bi-stars"></i></div></div>
+            <div class="col-md-10"><h3>Teeth Whitening</h3>
+                <p class="text-muted-custom">Remove years of tea, coffee and stain safely. Our laser and professional gel treatments lighten your teeth several shades with minimal sensitivity.</p>
+                <div class="row"><div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>In-clinic laser whitening</li><li><i class="bi bi-check-circle-fill"></i>Take-home whitening kits</li></ul></div>
+                <div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Results in about 60 minutes</li><li><i class="bi bi-check-circle-fill"></i>Safe for enamel</li></ul></div></div>
+            </div></div></div>
+
+        <div class="svc-block"><div class="row g-4 align-items-center">
+            <div class="col-md-2 d-flex justify-content-md-center"><div class="svc-icon"><i class="bi bi-emoji-smile"></i></div></div>
+            <div class="col-md-10"><h3>Braces &amp; Clear Aligners</h3>
+                <p class="text-muted-custom">Led by our orthodontic specialist, we correct crowding, gaps and bite problems for teens and adults, from classic braces to nearly invisible aligners.</p>
+                <div class="row"><div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Metal &amp; ceramic braces</li><li><i class="bi bi-check-circle-fill"></i>Clear aligner therapy</li></ul></div>
+                <div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>3D digital treatment planning</li><li><i class="bi bi-check-circle-fill"></i>Retainers after treatment</li></ul></div></div>
+            </div></div></div>
+
+        <div class="svc-block"><div class="row g-4 align-items-center">
+            <div class="col-md-2 d-flex justify-content-md-center"><div class="svc-icon"><i class="bi bi-gear"></i></div></div>
+            <div class="col-md-10"><h3>Dental Implants</h3>
+                <p class="text-muted-custom">Missing a tooth? Implants look, feel and function like natural teeth and can last for decades with proper care.</p>
+                <div class="row"><div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Single &amp; multiple implants</li><li><i class="bi bi-check-circle-fill"></i>Implant-supported dentures</li></ul></div>
+                <div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Bone grafting if needed</li><li><i class="bi bi-check-circle-fill"></i>Guided, precise placement</li></ul></div></div>
+            </div></div></div>
+
+        <div class="svc-block"><div class="row g-4 align-items-center">
+            <div class="col-md-2 d-flex justify-content-md-center"><div class="svc-icon"><i class="bi bi-bandaid"></i></div></div>
+            <div class="col-md-10"><h3>Root Canal Treatment</h3>
+                <p class="text-muted-custom">A root canal removes infection from inside the tooth so you can keep your natural tooth. With modern anaesthesia it is comfortable and usually done in one or two visits.</p>
+                <div class="row"><div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Low-discomfort rotary technique</li><li><i class="bi bi-check-circle-fill"></i>Same-day relief from pain</li></ul></div>
+                <div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Crown placement after treatment</li><li><i class="bi bi-check-circle-fill"></i>Re-treatment of old root canals</li></ul></div></div>
+            </div></div></div>
+
+        <div class="svc-block"><div class="row g-4 align-items-center">
+            <div class="col-md-2 d-flex justify-content-md-center"><div class="svc-icon"><i class="bi bi-balloon"></i></div></div>
+            <div class="col-md-10"><h3>Kids Dentistry</h3>
+                <p class="text-muted-custom">A positive first experience builds a lifetime of healthy habits. Our team makes every child feel relaxed and safe.</p>
+                <div class="row"><div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Gentle checkups &amp; cleaning</li><li><i class="bi bi-check-circle-fill"></i>Fluoride &amp; fissure sealants</li></ul></div>
+                <div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Child-friendly fillings</li><li><i class="bi bi-check-circle-fill"></i>Brushing guidance for parents</li></ul></div></div>
+            </div></div></div>
+
+        <div class="svc-block"><div class="row g-4 align-items-center">
+            <div class="col-md-2 d-flex justify-content-md-center"><div class="svc-icon"><i class="bi bi-gem"></i></div></div>
+            <div class="col-md-10"><h3>Cosmetic Dentistry &amp; Smile Design</h3>
+                <p class="text-muted-custom">Using digital smile design, we preview your new smile before treatment begins, so you know exactly what to expect.</p>
+                <div class="row"><div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Porcelain veneers</li><li><i class="bi bi-check-circle-fill"></i>Crowns &amp; bridges</li></ul></div>
+                <div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Cosmetic bonding</li><li><i class="bi bi-check-circle-fill"></i>Complete smile makeovers</li></ul></div></div>
+            </div></div></div>
+
+        <div class="svc-block"><div class="row g-4 align-items-center">
+            <div class="col-md-2 d-flex justify-content-md-center"><div class="svc-icon"><i class="bi bi-exclamation-triangle"></i></div></div>
+            <div class="col-md-10"><h3>Emergency Dental Care</h3>
+                <p class="text-muted-custom">Toothache, broken tooth or swelling? Call us right away and we will see you as soon as possible.</p>
+                <div class="row"><div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Severe toothache relief</li><li><i class="bi bi-check-circle-fill"></i>Broken or knocked-out teeth</li></ul></div>
+                <div class="col-md-6"><ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Lost fillings &amp; crowns</li><li><i class="bi bi-check-circle-fill"></i>Abscess &amp; swelling treatment</li></ul></div></div>
+            </div></div></div>
+
+        <!-- Process -->
+        <div class="text-center mt-5 mb-5">
+            <span class="sub-gold-title">HOW IT WORKS</span>
+            <h2 class="section-heading">Your Treatment Journey</h2>
+        </div>
+        <div class="row g-4 text-center">
+            <div class="col-6 col-md-3"><div class="step-num">1</div><h5>Consultation</h5><p class="text-muted-custom">We listen, examine and take digital X-rays.</p></div>
+            <div class="col-6 col-md-3"><div class="step-num">2</div><h5>Treatment Plan</h5><p class="text-muted-custom">A clear plan with transparent pricing.</p></div>
+            <div class="col-6 col-md-3"><div class="step-num">3</div><h5>Treatment</h5><p class="text-muted-custom">Comfortable, modern and gentle procedures.</p></div>
+            <div class="col-6 col-md-3"><div class="step-num">4</div><h5>Follow-up</h5><p class="text-muted-custom">Aftercare and regular reviews for lasting results.</p></div>
+        </div>
+
+        <!-- Pricing -->
+        <div class="text-center mt-5 mb-5">
+            <span class="sub-gold-title">PRICING</span>
+            <h2 class="section-heading">Starting Prices</h2>
+        </div>
+        <div class="appointment-box p-3 p-md-4 table-responsive">
+            <table class="price-table">
+                <thead><tr><th>SERVICE</th><th>DURATION</th><th class="text-end">STARTING FROM</th></tr></thead>
+                <tbody>
+                    <tr><td>Consultation &amp; Checkup</td><td>30 min</td><td class="text-end price">Rs. 1,000</td></tr>
+                    <tr><td>Scaling &amp; Polishing</td><td>45 min</td><td class="text-end price">Rs. 3,500</td></tr>
+                    <tr><td>Tooth-coloured Filling</td><td>45 min</td><td class="text-end price">Rs. 4,000</td></tr>
+                    <tr><td>Teeth Whitening</td><td>60 min</td><td class="text-end price">Rs. 15,000</td></tr>
+                    <tr><td>Root Canal Treatment</td><td>1-2 visits</td><td class="text-end price">Rs. 12,000</td></tr>
+                    <tr><td>Braces (full course)</td><td>12-24 months</td><td class="text-end price">Rs. 90,000</td></tr>
+                    <tr><td>Dental Implant</td><td>2-3 visits</td><td class="text-end price">Rs. 85,000</td></tr>
+                </tbody>
+            </table>
+            <p class="text-muted-custom mt-3 mb-0 small">* Prices are indicative and may vary after examination.</p>
+        </div>
+
+        <!-- FAQ -->
+        <div class="text-center mt-5 mb-5">
+            <span class="sub-gold-title">FAQ</span>
+            <h2 class="section-heading">Common Questions</h2>
+        </div>
+        <div class="accordion mx-auto" id="faqAcc" style="max-width:850px;">
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1">Are your treatments painful?</button></h2>
+                <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqAcc"><div class="accordion-body">We use modern anaesthesia and gentle techniques, so most patients feel little to no pain during treatment.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">How often should I visit the dentist?</button></h2>
+                <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">A checkup and cleaning every six months is recommended for most people.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">How long do braces take?</button></h2>
+                <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Usually 12 to 24 months depending on your case. We give you an estimate at the first consultation.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4">Is teeth whitening safe?</button></h2>
+                <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Yes, when done professionally. Some people feel temporary sensitivity, which settles within a day or two.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5">Do I need an appointment for emergencies?</button></h2>
+                <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Please call us first on 0300 2964311 so we can arrange the quickest possible visit.</div></div></div>
+        </div>
+
+        <!-- CTA -->
+        <div class="cta-band text-center p-4 p-md-5 mt-5">
+            <h2 class="section-heading">Ready For A Healthier Smile?</h2>
+            <p class="text-muted-custom mb-4">Book your free consultation today and let our team take care of the rest.</p>
+            <a href="#appointment" class="btn main-gold-btn">BOOK APPOINTMENT</a>
+            <a href="#contact" class="btn outline-light-btn">CONTACT US</a>
+        </div>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="py-5 section-pad">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="sub-gold-title">EDUCATION</span>
+            <h2 class="section-heading">Qualifications &amp; Training</h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item"><span class="year">2004</span><h5>BDS - Bachelor of Dental Surgery</h5><p class="text-muted-custom">Dow University of Health Sciences, Karachi</p></div>
+            <div class="timeline-item"><span class="year">2008</span><h5>FCPS - Orthodontics</h5><p class="text-muted-custom">College of Physicians and Surgeons Pakistan</p></div>
+            <div class="timeline-item"><span class="year">2012</span><h5>Advanced Implantology Certificate</h5><p class="text-muted-custom">International training programme, London</p></div>
+            <div class="timeline-item"><span class="year">2018</span><h5>Digital Smile Design Specialist</h5><p class="text-muted-custom">Certified in digital planning and cosmetic dentistry</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- PATIENT EDUCATION -->
+<section id="patient-education" class="py-5 section-pad alt-bg">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="sub-gold-title">PATIENT EDUCATION</span>
+            <h2 class="section-heading">Know Your Oral Health</h2>
+            <p class="text-muted-custom mx-auto mt-3" style="max-width:700px;">A healthy mouth, free of infection and injury, is important for your overall health. Learn about common dental problems, how to prevent them, and when to see a dentist.</p>
+        </div>
+
+        <!-- Filter -->
+        <div class="text-center mb-4" id="pedFilters">
+            <button type="button" class="btn filter-btn active" data-filter="all">ALL</button>
+            <button type="button" class="btn filter-btn" data-filter="teeth">TEETH</button>
+            <button type="button" class="btn filter-btn" data-filter="gums">GUMS</button>
+            <button type="button" class="btn filter-btn" data-filter="mouth">MOUTH</button>
+            <button type="button" class="btn filter-btn" data-filter="kids">KIDS</button>
+        </div>
+
+        <!-- Condition cards -->
+        <div class="row g-4" id="pedCards">
+            <div class="col-md-6 col-lg-4 ped-item" data-cat="teeth"><div class="service-card p-4 h-100">
+                <div class="d-flex align-items-center mb-3"><div class="icon-box me-3"><i class="bi bi-emoji-frown fs-4 icon-gold"></i></div><span class="tag">TEETH</span></div>
+                <h5>Tooth Decay (Cavities)</h5>
+                <p class="text-muted-custom">Bacteria turn sugar into acid that slowly damages enamel and creates holes in the tooth. Early treatment is simple; late treatment is not.</p>
+                <ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Toothache or pain when biting</li><li><i class="bi bi-check-circle-fill"></i>Brown or black spots on teeth</li><li><i class="bi bi-lightbulb-fill"></i>Limit sugary snacks and drinks</li></ul>
+            </div></div>
+
+            <div class="col-md-6 col-lg-4 ped-item" data-cat="teeth"><div class="service-card p-4 h-100">
+                <div class="d-flex align-items-center mb-3"><div class="icon-box me-3"><i class="bi bi-thermometer-snow fs-4 icon-gold"></i></div><span class="tag">TEETH</span></div>
+                <h5>Tooth Sensitivity</h5>
+                <p class="text-muted-custom">Worn enamel or exposed roots can make teeth react sharply to hot, cold, sweet or acidic food and drinks.</p>
+                <ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Short, sharp pain with cold or hot</li><li><i class="bi bi-check-circle-fill"></i>Discomfort while brushing</li><li><i class="bi bi-lightbulb-fill"></i>Use a soft brush and desensitising toothpaste</li></ul>
+            </div></div>
+
+            <div class="col-md-6 col-lg-4 ped-item" data-cat="gums"><div class="service-card p-4 h-100">
+                <div class="d-flex align-items-center mb-3"><div class="icon-box me-3"><i class="bi bi-heart-pulse fs-4 icon-gold"></i></div><span class="tag">GUMS</span></div>
+                <h5>Gum Disease</h5>
+                <p class="text-muted-custom">Plaque left on the gum line causes inflammation (gingivitis). If untreated it can damage the bone that holds your teeth.</p>
+                <ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Red, swollen or bleeding gums</li><li><i class="bi bi-check-circle-fill"></i>Gums pulling away from teeth</li><li><i class="bi bi-lightbulb-fill"></i>Floss daily and get regular cleanings</li></ul>
+            </div></div>
+
+            <div class="col-md-6 col-lg-4 ped-item" data-cat="mouth"><div class="service-card p-4 h-100">
+                <div class="d-flex align-items-center mb-3"><div class="icon-box me-3"><i class="bi bi-wind fs-4 icon-gold"></i></div><span class="tag">MOUTH</span></div>
+                <h5>Bad Breath</h5>
+                <p class="text-muted-custom">Most often caused by bacteria on the tongue and between teeth, but it can also point to gum disease, dry mouth or other health issues.</p>
+                <ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Persistent unpleasant taste or odour</li><li><i class="bi bi-check-circle-fill"></i>Dry mouth, coated tongue</li><li><i class="bi bi-lightbulb-fill"></i>Clean your tongue and drink plenty of water</li></ul>
+            </div></div>
+
+            <div class="col-md-6 col-lg-4 ped-item" data-cat="mouth"><div class="service-card p-4 h-100">
+                <div class="d-flex align-items-center mb-3"><div class="icon-box me-3"><i class="bi bi-exclamation-circle fs-4 icon-gold"></i></div><span class="tag">MOUTH</span></div>
+                <h5>Mouth Ulcers</h5>
+                <p class="text-muted-custom">Small painful sores inside the mouth are usually harmless and heal on their own, but should be checked if they last long.</p>
+                <ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Painful white or yellow sores</li><li><i class="bi bi-check-circle-fill"></i>Burning before the sore appears</li><li><i class="bi bi-lightbulb-fill"></i>See a dentist if it lasts over 3 weeks</li></ul>
+            </div></div>
+
+            <div class="col-md-6 col-lg-4 ped-item" data-cat="kids"><div class="service-card p-4 h-100">
+                <div class="d-flex align-items-center mb-3"><div class="icon-box me-3"><i class="bi bi-balloon fs-4 icon-gold"></i></div><span class="tag">KIDS</span></div>
+                <h5>Children's Dental Care</h5>
+                <p class="text-muted-custom">Baby teeth guide adult teeth into place, so looking after them matters. Healthy habits learned early last a lifetime.</p>
+                <ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>First dental visit by age one</li><li><i class="bi bi-check-circle-fill"></i>Supervise brushing until about age 7</li><li><i class="bi bi-lightbulb-fill"></i>Avoid sleeping with a sugary bottle</li></ul>
+            </div></div>
+        </div>
+
+        <!-- Daily care -->
+        <div class="text-center mt-5 mb-5">
+            <span class="sub-gold-title">DAILY ROUTINE</span>
+            <h2 class="section-heading">4 Habits For Healthy Teeth</h2>
+        </div>
+        <div class="row g-4 text-center">
+            <div class="col-6 col-md-3"><div class="step-num">1</div><h5>Brush Twice A Day</h5><p class="text-muted-custom">Two minutes with a fluoride toothpaste and a soft brush.</p></div>
+            <div class="col-6 col-md-3"><div class="step-num">2</div><h5>Floss Daily</h5><p class="text-muted-custom">Clean between teeth where the brush cannot reach.</p></div>
+            <div class="col-6 col-md-3"><div class="step-num">3</div><h5>Eat Smart</h5><p class="text-muted-custom">Cut down on sugary snacks, sweets and fizzy drinks.</p></div>
+            <div class="col-6 col-md-3"><div class="step-num">4</div><h5>Visit Regularly</h5><p class="text-muted-custom">A checkup and cleaning every six months.</p></div>
+        </div>
+
+        <!-- Do / Don't + warning signs -->
+        <div class="row g-4 mt-4">
+            <div class="col-lg-4"><div class="service-card p-4 h-100">
+                <h5 class="mb-3"><i class="bi bi-hand-thumbs-up-fill icon-gold me-2"></i>Do</h5>
+                <ul class="svc-list"><li><i class="bi bi-check-circle-fill"></i>Replace your toothbrush every 3 months</li><li><i class="bi bi-check-circle-fill"></i>Drink water after meals</li><li><i class="bi bi-check-circle-fill"></i>Wear a mouthguard for contact sports</li><li><i class="bi bi-check-circle-fill"></i>Use fluoride toothpaste</li></ul>
+            </div></div>
+            <div class="col-lg-4"><div class="service-card p-4 h-100">
+                <h5 class="mb-3"><i class="bi bi-hand-thumbs-down-fill icon-gold me-2"></i>Don't</h5>
+                <ul class="svc-list"><li><i class="bi bi-x-circle-fill"></i>Smoke or chew tobacco</li><li><i class="bi bi-x-circle-fill"></i>Brush too hard</li><li><i class="bi bi-x-circle-fill"></i>Use teeth to open bottles or packets</li><li><i class="bi bi-x-circle-fill"></i>Ignore a toothache</li></ul>
+            </div></div>
+            <div class="col-lg-4"><div class="service-card p-4 h-100">
+                <h5 class="mb-3"><i class="bi bi-exclamation-triangle-fill icon-gold me-2"></i>See A Dentist Quickly If</h5>
+                <ul class="svc-list"><li><i class="bi bi-exclamation-circle-fill"></i>Swelling of the face or gums</li><li><i class="bi bi-exclamation-circle-fill"></i>Severe pain that does not settle</li><li><i class="bi bi-exclamation-circle-fill"></i>A tooth is knocked out or broken</li><li><i class="bi bi-exclamation-circle-fill"></i>Bleeding that will not stop</li></ul>
+            </div></div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="text-center mt-5 mb-5">
+            <span class="sub-gold-title">PATIENT FAQ</span>
+            <h2 class="section-heading">Quick Answers</h2>
+        </div>
+        <div class="accordion mx-auto" id="pedFaq" style="max-width:850px;">
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#pf1">Why do my gums bleed when I brush?</button></h2>
+                <div id="pf1" class="accordion-collapse collapse show" data-bs-parent="#pedFaq"><div class="accordion-body">Bleeding is most often a sign of gum inflammation caused by plaque. Keep brushing gently and flossing; if it continues for more than a week or two, book a checkup.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pf2">Does oral health affect the rest of my body?</button></h2>
+                <div id="pf2" class="accordion-collapse collapse" data-bs-parent="#pedFaq"><div class="accordion-body">Yes. Dental problems can affect other parts of the body, and some diseases show early signs in the mouth. Caring for your teeth and gums supports your general health.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pf3">When should my child first see a dentist?</button></h2>
+                <div id="pf3" class="accordion-collapse collapse" data-bs-parent="#pedFaq"><div class="accordion-body">Usually when the first tooth appears, and no later than the first birthday. Early visits help prevent problems and make children comfortable.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pf4">Is an electric toothbrush better than a manual one?</button></h2>
+                <div id="pf4" class="accordion-collapse collapse" data-bs-parent="#pedFaq"><div class="accordion-body">Either works if you brush properly for two minutes twice a day. Many people find electric brushes easier to use consistently.</div></div></div>
+        </div>
+
+        <div class="cta-band text-center p-4 p-md-5 mt-5">
+            <h2 class="section-heading">Have A Question About Your Teeth?</h2>
+            <p class="text-muted-custom mb-4">Our team is happy to explain your treatment options in simple words.</p>
+            <a href="#appointment" class="btn main-gold-btn">BOOK APPOINTMENT</a>
+            <a href="#contact" class="btn outline-light-btn">ASK US</a>
+        </div>
+    </div>
+</section>
+
+<!-- RESEARCH -->
+<!-- FEATURED -->
+<section id="research-section" class="py-5 section-pad">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="sub-gold-title">LATEST</span>
+            <h2 class="section-heading">Featured Research</h2>
+        </div>
+        <div class="featured service-card" id="research">
+            <div class="f-img" role="img" aria-label="Clear aligner treatment"></div>
+            <div class="f-body">
+                <span class="badge-gold">NEW &bull; 2023</span>
+                <h3 class="mt-3">Modern Techniques in Clear Aligner Therapy</h3>
+                <p class="paper-meta">Journal of Pakistan Dental Association &bull; Dental Care team</p>
+                <p class="text-muted-custom">We followed 85 patients through aligner treatment and compared total treatment time and comfort scores with fixed braces. Aligners cut average visit time and were rated more comfortable in the first month.</p>
+                <div class="mb-3"><span class="chip">Clear aligners</span><span class="chip">Patient comfort</span><span class="chip">Treatment time</span></div>
+                <div class="paper-links"><a href="#"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a><a href="#"><i class="bi bi-box-arrow-up-right"></i> View journal</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section class="py-5 section-pad alt-bg">
+    <div class="container">
+        <div class="text-center mb-4">
+            <span class="sub-gold-title">PUBLICATIONS</span>
+            <h2 class="section-heading">All Published Papers</h2>
+        </div>
+
+        <div class="search-box">
+            <i class="bi bi-search"></i>
+            <input type="search" id="paperSearch" class="form-control custom-input" placeholder="Search papers or topics..." aria-label="Search papers">
+        </div>
+        <div class="sort-wrap"><select id="sortPapers" class="form-select custom-input" aria-label="Sort papers"><option value="new">Newest first</option><option value="old">Oldest first</option></select></div>
+        <div class="filter-bar text-center mb-5">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="orthodontics">Orthodontics</button>
+            <button class="filter-btn" data-filter="cosmetic">Cosmetic</button>
+            <button class="filter-btn" data-filter="implants">Implants</button>
+            <button class="filter-btn" data-filter="community">Community Health</button>
+        </div>
+
+        <div class="row g-4" id="paperList">
+            <div class="col-lg-6 paper-item" data-cat="orthodontics" data-year="2023">
+                <div class="service-card paper-card p-4 h-100">
+                    <div class="paper-top"><span class="tag">2023</span><i class="bi bi-braces icon-gold fs-4"></i></div>
+                    <h5 class="mt-3">Modern Techniques in Clear Aligner Therapy</h5>
+                    <p class="paper-meta">Journal of Pakistan Dental Association</p>
+                    <p class="text-muted-custom">Treatment time and patient comfort with clear aligners compared with fixed braces.</p>
+                    <div class="mb-3"><span class="chip">Aligners</span><span class="chip">Comfort</span></div>
+                    <div class="paper-links"><a href="#"><i class="bi bi-file-earmark-pdf"></i> PDF</a><a href="#" class="cite-btn"><i class="bi bi-quote"></i> Cite</a></div>
+                </div>
+            </div>
+            <div class="col-lg-6 paper-item" data-cat="cosmetic" data-year="2021">
+                <div class="service-card paper-card p-4 h-100">
+                    <div class="paper-top"><span class="tag">2021</span><i class="bi bi-stars icon-gold fs-4"></i></div>
+                    <h5 class="mt-3">Laser vs. Conventional Whitening</h5>
+                    <p class="paper-meta">International Journal of Cosmetic Dentistry</p>
+                    <p class="text-muted-custom">Results, sensitivity and long-term shade stability compared across 120 patients.</p>
+                    <div class="mb-3"><span class="chip">Whitening</span><span class="chip">Laser</span><span class="chip">Sensitivity</span></div>
+                    <div class="paper-links"><a href="#"><i class="bi bi-file-earmark-pdf"></i> PDF</a><a href="#" class="cite-btn"><i class="bi bi-quote"></i> Cite</a></div>
+                </div>
+            </div>
+            <div class="col-lg-6 paper-item" data-cat="community" data-year="2019">
+                <div class="service-card paper-card p-4 h-100">
+                    <div class="paper-top"><span class="tag">2019</span><i class="bi bi-people icon-gold fs-4"></i></div>
+                    <h5 class="mt-3">Oral Health Awareness in Schools</h5>
+                    <p class="paper-meta">Community Dentistry Review</p>
+                    <p class="text-muted-custom">School-based programmes for preventing childhood tooth decay.</p>
+                    <div class="mb-3"><span class="chip">Children</span><span class="chip">Prevention</span></div>
+                    <div class="paper-links"><a href="#"><i class="bi bi-file-earmark-pdf"></i> PDF</a><a href="#" class="cite-btn"><i class="bi bi-quote"></i> Cite</a></div>
+                </div>
+            </div>
+            <div class="col-lg-6 paper-item" data-cat="orthodontics" data-year="2017">
+                <div class="service-card paper-card p-4 h-100">
+                    <div class="paper-top"><span class="tag">2017</span><i class="bi bi-braces icon-gold fs-4"></i></div>
+                    <h5 class="mt-3">Retention After Orthodontic Treatment</h5>
+                    <p class="paper-meta">Pakistan Orthodontic Journal</p>
+                    <p class="text-muted-custom">Relapse rates with fixed and removable retainers over five years.</p>
+                    <div class="mb-3"><span class="chip">Retainers</span><span class="chip">Relapse</span></div>
+                    <div class="paper-links"><a href="#"><i class="bi bi-file-earmark-pdf"></i> PDF</a><a href="#" class="cite-btn"><i class="bi bi-quote"></i> Cite</a></div>
+                </div>
+            </div>
+            <div class="col-lg-6 paper-item" data-cat="implants" data-year="2015">
+                <div class="service-card paper-card p-4 h-100">
+                    <div class="paper-top"><span class="tag">2015</span><i class="bi bi-gem icon-gold fs-4"></i></div>
+                    <h5 class="mt-3">Digital Planning for Dental Implant Placement</h5>
+                    <p class="paper-meta">Journal of Oral Implantology Pakistan</p>
+                    <p class="text-muted-custom">How 3D planning improves the accuracy of implant position and healing time.</p>
+                    <div class="mb-3"><span class="chip">Implants</span><span class="chip">3D planning</span></div>
+                    <div class="paper-links"><a href="#"><i class="bi bi-file-earmark-pdf"></i> PDF</a><a href="#" class="cite-btn"><i class="bi bi-quote"></i> Cite</a></div>
+                </div>
+            </div>
+            <div class="col-lg-6 paper-item" data-cat="community" data-year="2013">
+                <div class="service-card paper-card p-4 h-100">
+                    <div class="paper-top"><span class="tag">2013</span><i class="bi bi-people icon-gold fs-4"></i></div>
+                    <h5 class="mt-3">Brushing Habits and Gum Health in Adults</h5>
+                    <p class="paper-meta">Community Dentistry Review</p>
+                    <p class="text-muted-custom">A survey of daily brushing habits and their link with early gum disease.</p>
+                    <div class="mb-3"><span class="chip">Gum health</span><span class="chip">Survey</span></div>
+                    <div class="paper-links"><a href="#"><i class="bi bi-file-earmark-pdf"></i> PDF</a><a href="#" class="cite-btn"><i class="bi bi-quote"></i> Cite</a></div>
+                </div>
+            </div>
+        </div>
+        <p id="noResults" class="text-center text-muted-custom mt-4">No papers match your search. Try a different word.</p>
+    </div>
+</section>
+
+
+<!-- PRODUCTS -->
+<section id="products" class="py-5 section-pad">
+    <div class="container">
+        <div class="text-center mb-4">
+            <span class="sub-gold-title">PRODUCTS</span>
+            <h2 class="section-heading">Dental Care Products</h2>
+            <p class="text-muted-custom mx-auto mt-3" style="max-width:650px;">Dentist-recommended products for every member of the family. Use the filters to find what you need.</p>
+        </div>
+        <div class="text-center mb-4" id="prodFilters">
+            <button type="button" class="btn filter-btn active" data-filter="all">ALL</button>
+            <button type="button" class="btn filter-btn" data-filter="toothpaste">TOOTHPASTE</button>
+            <button type="button" class="btn filter-btn" data-filter="brushes">BRUSHES</button>
+            <button type="button" class="btn filter-btn" data-filter="kids">KIDS</button>
+            <button type="button" class="btn filter-btn" data-filter="electric">ELECTRIC</button>
+            <button type="button" class="btn filter-btn" data-filter="care">ORAL CARE</button>
+        </div>
+        <div class="row g-4 justify-content-center" id="prodGrid">
+            <div class="col-6 col-lg-3 prod-item" data-cat="toothpaste"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1550985543-f1ea83691cd8?auto=format&fit=crop&w=700&q=80" alt="Whitening Toothpaste" loading="lazy"><span class="tag">TOOTHPASTE</span></div><div class="prod-body"><h5>Whitening Toothpaste</h5><p class="text-muted-custom">Gentle daily whitening for a brighter smile.</p><div class="prod-foot"><span class="price">$2.99</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Whitening Toothpaste" data-price="$2.99"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="toothpaste"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1612705166160-97d3b2e8e212?auto=format&fit=crop&w=700&q=80" alt="Sensitivity Relief Toothpaste" loading="lazy"><span class="tag">TOOTHPASTE</span></div><div class="prod-body"><h5>Sensitivity Relief Toothpaste</h5><p class="text-muted-custom">Soothes teeth that react to hot and cold.</p><div class="prod-foot"><span class="price">$3.49</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Sensitivity Relief Toothpaste" data-price="$3.49"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="toothpaste"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1588774583125-bac783343696?auto=format&fit=crop&w=700&q=80" alt="Fluoride Cavity Protection" loading="lazy"><span class="tag">TOOTHPASTE</span></div><div class="prod-body"><h5>Fluoride Cavity Protection</h5><p class="text-muted-custom">Daily fluoride to strengthen enamel.</p><div class="prod-foot"><span class="price">$2.19</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Fluoride Cavity Protection" data-price="$2.19"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="brushes"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1520013573795-38516d2661e4?auto=format&fit=crop&w=700&q=80" alt="Soft-Bristle Toothbrush" loading="lazy"><span class="tag">BRUSHES</span></div><div class="prod-body"><h5>Soft-Bristle Toothbrush</h5><p class="text-muted-custom">Gentle on gums, ideal for everyday use.</p><div class="prod-foot"><span class="price">$0.99</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Soft-Bristle Toothbrush" data-price="$0.99"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="brushes"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=700&q=80" alt="Orthodontic Toothbrush" loading="lazy"><span class="tag">BRUSHES</span></div><div class="prod-body"><h5>Orthodontic Toothbrush</h5><p class="text-muted-custom">V-cut bristles that clean around braces.</p><div class="prod-foot"><span class="price">$1.59</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Orthodontic Toothbrush" data-price="$1.59"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="brushes"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1532119421444-cb013aaed2e7?auto=format&fit=crop&w=700&q=80" alt="Interdental Brush Set" loading="lazy"><span class="tag">BRUSHES</span></div><div class="prod-body"><h5>Interdental Brush Set</h5><p class="text-muted-custom">Cleans between teeth and around implants.</p><div class="prod-foot"><span class="price">$1.99</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Interdental Brush Set" data-price="$1.99"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="kids"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1763048819607-ea55217cff34?auto=format&fit=crop&w=700&q=80" alt="Kids Fruity Toothpaste" loading="lazy"><span class="tag">KIDS</span></div><div class="prod-body"><h5>Kids Fruity Toothpaste</h5><p class="text-muted-custom">Mild fruit flavour kids enjoy brushing with.</p><div class="prod-foot"><span class="price">$1.59</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Kids Fruity Toothpaste" data-price="$1.59"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="kids"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1609840112855-9ab5ad8f66e4?auto=format&fit=crop&w=700&q=80" alt="Kids Soft Toothbrush" loading="lazy"><span class="tag">KIDS</span></div><div class="prod-body"><h5>Kids Soft Toothbrush</h5><p class="text-muted-custom">Extra-soft bristles with a small, easy-grip head.</p><div class="prod-foot"><span class="price">$1.09</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Kids Soft Toothbrush" data-price="$1.09"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="kids"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1690844623570-b5304dceae3b?auto=format&fit=crop&w=700&q=80" alt="Kids Starter Kit" loading="lazy"><span class="tag">KIDS</span></div><div class="prod-body"><h5>Kids Starter Kit</h5><p class="text-muted-custom">Brush, toothpaste and timer in one fun set.</p><div class="prod-foot"><span class="price">$4.29</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Kids Starter Kit" data-price="$4.29"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="electric"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1575325342632-92615b50d3e2?auto=format&fit=crop&w=700&q=80" alt="Electric Toothbrush" loading="lazy"><span class="tag">ELECTRIC</span></div><div class="prod-body"><h5>Electric Toothbrush</h5><p class="text-muted-custom">Rechargeable, 3 modes, 2-minute timer.</p><div class="prod-foot"><span class="price">$23.99</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Electric Toothbrush" data-price="$23.99"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="electric"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1748408279590-e99e53910d41?auto=format&fit=crop&w=700&q=80" alt="Water Flosser" loading="lazy"><span class="tag">ELECTRIC</span></div><div class="prod-body"><h5>Water Flosser</h5><p class="text-muted-custom">Cordless jet flosser for braces and gums.</p><div class="prod-foot"><span class="price">$29.99</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Water Flosser" data-price="$29.99"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="electric"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1559671216-bda69517c47f?auto=format&fit=crop&w=700&q=80" alt="Replacement Brush Heads" loading="lazy"><span class="tag">ELECTRIC</span></div><div class="prod-body"><h5>Replacement Brush Heads</h5><p class="text-muted-custom">Pack of 3 heads for electric toothbrushes.</p><div class="prod-foot"><span class="price">$6.49</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Replacement Brush Heads" data-price="$6.49"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="care"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1626006864160-aa21716d0204?auto=format&fit=crop&w=700&q=80" alt="Antibacterial Mouthwash" loading="lazy"><span class="tag">ORAL CARE</span></div><div class="prod-body"><h5>Antibacterial Mouthwash</h5><p class="text-muted-custom">Fresh breath all day.</p><div class="prod-foot"><span class="price">$2.49</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Antibacterial Mouthwash" data-price="$2.49"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="care"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1564420159030-ad05d6fbc24e?auto=format&fit=crop&w=700&q=80" alt="Night Guard" loading="lazy"><span class="tag">ORAL CARE</span></div><div class="prod-body"><h5>Night Guard</h5><p class="text-muted-custom">Custom-fit protection against teeth grinding.</p><div class="prod-foot"><span class="price">$14.29</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Night Guard" data-price="$14.29"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+            <div class="col-6 col-lg-3 prod-item" data-cat="care"><div class="service-card prod-card text-center h-100"><div class="prod-img"><img src="https://images.unsplash.com/photo-1559818469-fdf7a1ae929c?auto=format&fit=crop&w=700&q=80" alt="Dental Floss Pack" loading="lazy"><span class="tag">ORAL CARE</span></div><div class="prod-body"><h5>Dental Floss Pack</h5><p class="text-muted-custom">Waxed floss, pack of 3 spools.</p><div class="prod-foot"><span class="price">$1.29</span><button type="button" class="btn main-gold-btn buy-btn" data-product="Dental Floss Pack" data-price="$1.29"><i class="bi bi-bag-check me-2"></i>BUY NOW</button></div></div></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="py-5 section-pad alt-bg">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="sub-gold-title">GALLERY</span>
+            <h2 class="section-heading">Our Clinic &amp; Smiles</h2>
+        </div>
+        <div class="row g-3">
+            <div class="col-6 col-md-4"><div class="gallery-item"><img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=1000&q=85" alt="Bright, modern treatment room" loading="lazy"><div class="gallery-caption">Modern Treatment Room</div></div></div>
+            <div class="col-6 col-md-4"><div class="gallery-item"><img src="https://images.unsplash.com/photo-1677026010083-78ec7f1b84ed?auto=format&fit=crop&w=1000&q=85" alt="Close-up of healthy white teeth" loading="lazy"><div class="gallery-caption">Healthy, Bright Smiles</div></div></div>
+            <div class="col-6 col-md-4"><div class="gallery-item"><img src="https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=1000&q=85" alt="Dentists performing a procedure on a patient" loading="lazy"><div class="gallery-caption">Gentle, Expert Care</div></div></div>
+            <div class="col-6 col-md-4"><div class="gallery-item"><img src="https://images.unsplash.com/photo-1728342057953-94bfad8f0e7e?auto=format&fit=crop&w=1000&q=85" alt="White dental chair beside a window" loading="lazy"><div class="gallery-caption">Clean &amp; Comfortable Clinic</div></div></div>
+            <div class="col-6 col-md-4"><div class="gallery-item"><img src="https://images.unsplash.com/photo-1564420228450-d9a5bc8d6565?auto=format&fit=crop&w=1000&q=85" alt="Clear dental aligners and whitening" loading="lazy"><div class="gallery-caption">Clear Aligners</div></div></div>
+            <div class="col-6 col-md-4"><div class="gallery-item"><img src="https://images.unsplash.com/photo-1593022356769-11f762e25ed9?auto=format&fit=crop&w=1000&q=85" alt="Dental implant model with teeth" loading="lazy"><div class="gallery-caption">Dental Implants</div></div></div>
+            <div class="col-6 col-md-4"><div class="gallery-item"><img src="https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?auto=format&fit=crop&w=1000&q=85" alt="Dental scan reviewed on a tablet" loading="lazy"><div class="gallery-caption">Digital Diagnosis</div></div></div>
+            <div class="col-6 col-md-4"><div class="gallery-item"><img src="https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?auto=format&fit=crop&w=1000&q=85" alt="Woman with a confident smile" loading="lazy"><div class="gallery-caption">Confident Smiles</div></div></div>
+            <div class="col-6 col-md-4"><div class="gallery-item"><img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1000&q=85" alt="Dental exam with mirror and tool" loading="lazy"><div class="gallery-caption">Precise Examination</div></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="py-5 section-pad">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="sub-gold-title">TESTIMONIALS</span>
+            <h2 class="section-heading">What Patients Say</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4"><div class="service-card p-4 h-100"><div class="stars mb-2">★★★★★</div><p class="text-muted-custom">Very professional staff and a painless treatment. Highly recommended!</p><h6 class="mb-0">Ali Ahmed</h6></div></div>
+            <div class="col-md-4"><div class="service-card p-4 h-100"><div class="stars mb-2">★★★★★</div><p class="text-muted-custom">My braces journey was smooth and the results are amazing.</p><h6 class="mb-0">Sara Khan</h6></div></div>
+            <div class="col-md-4"><div class="service-card p-4 h-100"><div class="stars mb-2">★★★★★</div><p class="text-muted-custom">Clean clinic, friendly doctors and fair prices. Thank you!</p><h6 class="mb-0">Usman Raza</h6></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- APPOINTMENT -->
+<section id="appointment" class="py-5 section-pad alt-bg">
+    <div class="container">
+        <div class="appointment-box p-4 p-md-5">
+            <div class="text-center mb-4">
+                <span class="sub-gold-title">BOOK YOUR VISIT</span>
+                <h2 class="section-heading">Make An Appointment</h2>
+            </div>
+            <div id="apptAlert" class="alert alert-success d-none">Thank you! We will call you shortly to confirm your appointment.</div>
+            <form id="apptForm" novalidate>
+                <div class="row g-3">
+                    <div class="col-md-6"><input type="text" class="form-control custom-input" placeholder="Your Name" required><div class="invalid-feedback">Please enter your name.</div></div>
+                    <div class="col-md-6"><input type="tel" class="form-control custom-input" placeholder="Phone Number" pattern="^[0-9]{10,12}$" required><div class="invalid-feedback">Enter a valid phone number (10-12 digits).</div></div>
+                    <div class="col-md-6">
+                        <select class="form-select custom-input" required>
+                            <option value="" selected disabled>Select Service</option>
+                            <option>General Dentistry</option><option>Teeth Whitening</option><option>Braces &amp; Aligners</option><option>Dental Implants</option><option>Root Canal</option><option>Kids Dentistry</option>
+                        </select>
+                        <div class="invalid-feedback">Please select a service.</div>
+                    </div>
+                    <div class="col-md-6"><input type="date" class="form-control custom-input" required><div class="invalid-feedback">Please choose a date.</div></div>
+                    <div class="col-12 mt-4"><button type="submit" class="btn main-gold-btn w-100">SUBMIT ENQUIRY</button></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5 section-pad">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="sub-gold-title">GET IN TOUCH</span>
+            <h2 class="section-heading">Contact Us</h2>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-5">
+                <h3 class="mb-3">We'd Love To Hear From You</h3>
+                <p class="text-muted-custom mb-4">Have questions about our treatments or pricing? Contact us by phone, email, or visit our clinic.</p>
+                <div class="contact-info-card d-flex align-items-center mb-4 p-3">
+                    <div class="icon-box me-3"><i class="bi bi-geo-alt fs-3 icon-gold"></i></div>
+                    <div><h6 class="mb-1 text-white">Location</h6><p class="text-muted-custom mb-0">Business Bay, Sector F, DHA Phase 1, Islamabad, Pakistan</p></div>
+                </div>
+                <div class="contact-info-card d-flex align-items-center mb-4 p-3">
+                    <div class="icon-box me-3"><i class="bi bi-telephone fs-3 icon-gold"></i></div>
+                    <div><h6 class="mb-1 text-white">Phone</h6><p class="text-muted-custom mb-0">0300 2964311</p></div>
+                </div>
+                <div class="contact-info-card d-flex align-items-center mb-4 p-3">
+                    <div class="icon-box me-3"><i class="bi bi-envelope fs-3 icon-gold"></i></div>
+                    <div><h6 class="mb-1 text-white">Email</h6><p class="text-muted-custom mb-0">mrayyanmkashif4@gmail.com</p></div>
+                </div>
+                <div class="contact-info-card d-flex align-items-center p-3">
+                    <div class="icon-box me-3"><i class="bi bi-clock fs-3 icon-gold"></i></div>
+                    <div><h6 class="mb-1 text-white">Working Hours</h6><p class="text-muted-custom mb-0">Mon - Sat: 10:00 AM - 08:00 PM</p></div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="appointment-box p-4 p-md-5">
+                    <h3 class="mb-4 text-white">Send Us A Message</h3>
+                    <div id="successAlert" class="alert alert-success d-none" role="alert">Thank you! Your message has been sent successfully. We will get back to you soon.</div>
+                    <form id="contactForm" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label text-muted-custom">Full Name *</label>
+                                <input type="text" class="form-control custom-input" placeholder="e.g. Ali Ahmed" required>
+                                <div class="invalid-feedback">Please enter your full name.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label text-muted-custom">Phone Number *</label>
+                                <input type="tel" class="form-control custom-input" placeholder="e.g. 03001234567" pattern="^[0-9]{10,12}$" required>
+                                <div class="invalid-feedback">Enter a valid phone number (10 to 12 digits).</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label text-muted-custom">Email Address *</label>
+                                <input type="email" class="form-control custom-input" placeholder="e.g. name@example.com" required>
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label text-muted-custom">Subject *</label>
+                                <select class="form-select custom-input" required>
+                                    <option value="" selected disabled>Choose a subject...</option>
+                                    <option>General Inquiry</option><option>Appointment Booking</option><option>Teeth Whitening</option><option>Braces &amp; Orthodontics</option><option>Feedback</option>
+                                </select>
+                                <div class="invalid-feedback">Please select a subject.</div>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label text-muted-custom">Message *</label>
+                                <textarea id="cMessage" class="form-control custom-input" rows="5" placeholder="Write your message here..." required></textarea>
+                                <div class="invalid-feedback">Please enter your message (at least 10 characters).</div>
+                            </div>
+                            <div class="col-12 mt-4"><button type="submit" class="btn main-gold-btn w-100">SEND MESSAGE</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0 mt-5">
+        <iframe src="https://maps.google.com/maps?q=Business%20Bay%2C%20Sector%20F%2C%20DHA%20Phase%201%2C%20Islamabad%2C%20Pakistan&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="container">
+
+        <!-- Footer call-to-action -->
+        <div class="footer-cta">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <span class="sub-gold-title">BOOK YOUR VISIT</span>
+                    <h3 class="footer-cta-title">Ready For A Healthier, Brighter Smile?</h3>
+                    <p class="text-muted-custom mb-0">Call us or send a WhatsApp message and our team will arrange the earliest appointment for you.</p>
+                </div>
+                <div class="col-lg-5 text-lg-end">
+                    <a href="tel:+923002964311" class="btn main-gold-btn"><i class="bi bi-telephone-fill me-2"></i>CALL NOW</a>
+                    <a href="https://wa.me/923002964311" target="_blank" rel="noopener" class="btn outline-light-btn"><i class="bi bi-whatsapp me-2"></i>WHATSAPP</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer columns -->
+        <div class="row g-5 footer-main">
+            <div class="col-lg-4 col-md-12">
+                <h4 class="footer-brand"><span class="logo-icon">🦷</span> DENTAL CARE</h4>
+                <p class="text-muted-custom mt-3">Quality dental care with a gentle touch, in the heart of Islamabad. Modern technology, experienced doctors and a comfortable, stress-free experience for the whole family.</p>
+                <div class="footer-social mt-4">
+                    <a href="tel:+923002964311" aria-label="Call us" title="Call"><i class="bi bi-telephone-fill"></i></a>
+                    <a href="https://wa.me/923002964311" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    <a href="mailto:mrayyanmkashif4@gmail.com" aria-label="Email us" title="Email"><i class="bi bi-envelope-fill"></i></a>
+                    <a href="#contact" aria-label="Find us" title="Location"><i class="bi bi-geo-alt-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <h6 class="footer-title">Quick Links</h6>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#research-section">Research</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <h6 class="footer-title">Our Services</h6>
+                <ul class="footer-links">
+                    <li><a href="#services">General Dentistry</a></li>
+                    <li><a href="#services">Teeth Whitening</a></li>
+                    <li><a href="#services">Braces &amp; Clear Aligners</a></li>
+                    <li><a href="#services">Dental Implants</a></li>
+                    <li><a href="#services">Root Canal Treatment</a></li>
+                    <li><a href="#services">Kids Dentistry</a></li>
+                    <li><a href="#services">Emergency Care</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <h6 class="footer-title">Get In Touch</h6>
+                <ul class="footer-contact">
+                    <li><i class="bi bi-geo-alt-fill"></i><span>Business Bay, Sector F,<br>DHA Phase 1, Islamabad</span></li>
+                    <li><i class="bi bi-telephone-fill"></i><a href="tel:+923002964311">0300 2964311</a></li>
+                    <li><i class="bi bi-envelope-fill"></i><a href="mailto:mrayyanmkashif4@gmail.com">mrayyanmkashif4@gmail.com</a></li>
+                    <li><i class="bi bi-clock-fill"></i><span>Mon - Sat: 10:00 AM - 08:00 PM<br>Sunday: Closed</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="footer-bottom">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+            <p class="mb-0">&copy; 2026 Dental Care. All rights reserved.</p>
+            <p class="mb-0">Made with <i class="bi bi-heart-fill icon-gold mx-1"></i> for healthy smiles</p>
+        </div>
+    </div>
+</footer>
+
+<!-- BOTTOM TICKER: date, time, location -->
+<div class="ticker-bar" id="tickerBar" aria-label="Date, time and location ticker">
+    <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<a href="#home" class="back-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+
+<!-- CITE MODAL -->
+<div class="modal fade" id="citeModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"><div class="modal-content cite-modal">
+        <div class="modal-header border-0"><h5 class="modal-title">Cite This Paper</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+        <div class="modal-body"><div class="cite-box" id="citeText"></div></div>
+        <div class="modal-footer border-0"><button type="button" class="btn main-gold-btn" id="copyCite">COPY CITATION</button></div>
+    </div></div>
+</div>
+
+<!-- BUY MODAL -->
+<div class="modal fade" id="buyModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"><div class="modal-content cite-modal">
+        <div class="modal-header border-0"><h5 class="modal-title">Order: <span id="buyName"></span></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+        <form id="buyForm" novalidate>
+            <div class="modal-body">
+                <p class="text-muted-custom">Price: <span class="price" id="buyPrice"></span> each</p>
+                <div class="row g-3">
+                    <div class="col-8"><input type="text" id="buyCust" class="form-control custom-input" placeholder="Your Name" required><div class="invalid-feedback">Please enter your name.</div></div>
+                    <div class="col-4"><input type="number" id="buyQty" class="form-control custom-input" value="1" min="1" max="20" required><div class="invalid-feedback">1 to 20.</div></div>
+                    <div class="col-12"><input type="tel" id="buyPhone" class="form-control custom-input" placeholder="Phone e.g. 03001234567" pattern="^[0-9]{10,12}$" required><div class="invalid-feedback">Enter a valid phone number (10-12 digits).</div></div>
+                    <div class="col-12"><textarea id="buyAddr" class="form-control custom-input" rows="2" placeholder="Delivery address" required></textarea><div class="invalid-feedback">Please enter your address.</div></div>
+                </div>
+            </div>
+            <div class="modal-footer border-0"><button type="submit" class="btn main-gold-btn w-100"><i class="bi bi-whatsapp me-2"></i>CONFIRM ORDER ON WHATSAPP</button></div>
+        </form>
+    </div></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// Close mobile menu after clicking a link
+document.querySelectorAll('#navbarMenu .nav-link:not(.dropdown-toggle), #navbarMenu .dropdown-item, #navbarMenu .enquire-btn').forEach(function (l) {
+    l.addEventListener('click', function () {
+        var m = document.getElementById('navbarMenu');
+        if (m.classList.contains('show')) bootstrap.Collapse.getOrCreateInstance(m).hide();
+    });
+});
+// Appointment form validation
+document.getElementById('apptForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!this.checkValidity()) { this.classList.add('was-validated'); return; }
+    this.classList.remove('was-validated');
+    var a = document.getElementById('apptAlert');
+    a.classList.remove('d-none');
+    this.reset();
+    setTimeout(function () { a.classList.add('d-none'); }, 5000);
+});
+// Contact form validation
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var m = document.getElementById('cMessage');
+    m.setCustomValidity(m.value.trim().length < 10 ? 'Too short' : '');
+    if (!this.checkValidity()) { this.classList.add('was-validated'); return; }
+    this.classList.remove('was-validated');
+    var a = document.getElementById('successAlert');
+    a.classList.remove('d-none');
+    this.reset();
+    setTimeout(function () { a.classList.add('d-none'); }, 5000);
+});
+// Patient education filter (fade in / out)
+document.querySelectorAll('#pedFilters .filter-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        document.querySelectorAll('#pedFilters .filter-btn').forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        var f = btn.getAttribute('data-filter');
+        document.querySelectorAll('#pedCards .ped-item').forEach(function (item) {
+            var show = (f === 'all' || item.getAttribute('data-cat') === f);
+            if (show) {
+                item.classList.remove('ped-gone');
+                setTimeout(function () { item.classList.remove('ped-hide'); }, 20);
+            } else {
+                item.classList.add('ped-hide');
+                setTimeout(function () { if (item.classList.contains('ped-hide')) item.classList.add('ped-gone'); }, 400);
+            }
+        });
+    });
+});
+// Bottom ticker: date, time and location (HTML5 Geolocation)
+(function () {
+    var track = document.getElementById('tickerTrack');
+    var locText = 'Detecting location...';
+
+    // build 4 identical copies so the scroll loops seamlessly
+    var one = '<span class="ticker-item">' +
+        '<i class="bi bi-calendar3"></i><b>Date:</b> <span class="t-date"></span>' +
+        '<span class="ticker-sep">|</span>' +
+        '<i class="bi bi-clock"></i><b>Time:</b> <span class="t-time"></span>' +
+        '<span class="ticker-sep">|</span>' +
+        '<i class="bi bi-geo-alt"></i><b>Location:</b> <span class="t-loc"></span>' +
+        '</span>';
+    track.innerHTML = one + one + one + one;
+
+    function setAll(cls, text) {
+        var els = track.getElementsByClassName(cls);
+        for (var i = 0; i < els.length; i++) { els[i].textContent = text; }
+    }
+
+    function tick() {
+        var now = new Date();
+        setAll('t-date', now.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }));
+        setAll('t-time', now.toLocaleTimeString('en-GB'));
+    }
+    function setLoc(t) { locText = t; setAll('t-loc', t); }
+
+    tick();
+    setLoc(locText);
+    setInterval(tick, 1000);
+
+    if (!navigator.geolocation) { setLoc('Geolocation not supported by this browser'); return; }
+
+    navigator.geolocation.getCurrentPosition(function (pos) {
+        var lat = pos.coords.latitude, lon = pos.coords.longitude;
+        var coords = lat.toFixed(4) + ', ' + lon.toFixed(4);
+        setLoc('Lat/Long ' + coords);
+        // try to turn coordinates into a place name
+        if (window.fetch) {
+            fetch('https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=10&lat=' + lat + '&lon=' + lon)
+                .then(function (r) { return r.json(); })
+                .then(function (d) {
+                    var a = d.address || {};
+                    var place = [a.city || a.town || a.village || a.county, a.state, a.country].filter(Boolean).join(', ');
+                    if (place) setLoc(place + ' (' + coords + ')');
+                })
+                .catch(function () { /* keep coordinates */ });
+        }
+    }, function (err) {
+        setLoc(err.code === 1 ? 'Location permission denied' : 'Location unavailable');
+    }, { timeout: 10000, maximumAge: 600000 });
+})();
+// Visitor counter (stored in this browser; counts once per browser session)
+(function () {
+    var START = 1000; // starting number shown on the counter; set to 0 for a real-from-zero count
+    var el = document.getElementById('visitorCount');
+    var count = START;
+    try {
+        var saved = parseInt(localStorage.getItem('visitorCount'), 10);
+        count = isNaN(saved) ? START : saved;
+        if (!sessionStorage.getItem('visitCounted')) {
+            count += 1;
+            localStorage.setItem('visitorCount', String(count));
+            sessionStorage.setItem('visitCounted', '1');
+        }
+    } catch (e) { /* storage blocked: just show the starting number */ }
+    // quick count-up animation
+    var shown = Math.max(0, count - 20), step = Math.max(1, Math.ceil((count - shown) / 20));
+    var t = setInterval(function () {
+        shown = Math.min(count, shown + step);
+        el.textContent = shown.toLocaleString('en-US');
+        if (shown >= count) clearInterval(t);
+    }, 30);
+})();
+// Product filter (fade in / out)
+document.querySelectorAll('#prodFilters .filter-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        document.querySelectorAll('#prodFilters .filter-btn').forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        var f = btn.getAttribute('data-filter');
+        document.querySelectorAll('#prodGrid .prod-item').forEach(function (item) {
+            var show = (f === 'all' || item.getAttribute('data-cat') === f);
+            if (show) {
+                item.classList.remove('prod-gone');
+                setTimeout(function () { item.classList.remove('prod-hide'); }, 20);
+            } else {
+                item.classList.add('prod-hide');
+                setTimeout(function () { if (item.classList.contains('prod-hide')) item.classList.add('prod-gone'); }, 400);
+            }
+        });
+    });
+});
+// Navbar: highlight the section currently in view (normal scrolling single page)
+(function () {
+    var secs = document.querySelectorAll('body > section[id]');
+    var items = [];
+    for (var i = 0; i < secs.length; i++) {
+        items.push({ sec: secs[i], a: document.querySelector('#navbarMenu a[href="#' + secs[i].id + '"]:not(.enquire-btn)') });
+    }
+    var links = document.querySelectorAll('#navbarMenu .nav-link, #navbarMenu .dropdown-item');
+    function update() {
+        var y = window.scrollY + 120, cur = null;
+        items.forEach(function (it) { if (it.sec.offsetTop <= y) cur = it; });
+        links.forEach(function (a) { a.classList.remove('active'); });
+        if (!cur || !cur.a) return;
+        cur.a.classList.add('active');
+        var dd = cur.a.closest('.dropdown');
+        if (dd) dd.querySelector('.dropdown-toggle').classList.add('active');
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+})();
+</script>
+<script>
+// Research section scripts - add after bootstrap.bundle.min.js
+// Search + category filter
+var activeFilter = 'all';
+function applyFilters() {
+    var q = document.getElementById('paperSearch').value.trim().toLowerCase();
+    var shown = 0;
+    document.querySelectorAll('.paper-item').forEach(function (item) {
+        var okCat = activeFilter === 'all' || item.dataset.cat === activeFilter;
+        var okText = !q || item.textContent.toLowerCase().indexOf(q) > -1;
+        item.classList.toggle('hide', !(okCat && okText));
+        if (okCat && okText) shown++;
+    });
+    document.getElementById('noResults').style.display = shown ? 'none' : 'block';
+}
+document.querySelectorAll('.filter-bar .filter-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        document.querySelectorAll('.filter-bar .filter-btn').forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        activeFilter = btn.dataset.filter;
+        applyFilters();
+    });
+});
+document.getElementById('paperSearch').addEventListener('input', applyFilters);
+
+// Count-up for stats (runs once when visible)
+var counted = false;
+function runCount() {
+    if (counted) return;
+    var first = document.querySelector('[data-count]');
+    if (!first || first.getBoundingClientRect().top > window.innerHeight) return;
+    counted = true;
+    document.querySelectorAll('[data-count]').forEach(function (el) {
+        var target = +el.dataset.count, n = 0;
+        var t = setInterval(function () { n++; el.textContent = n; if (n >= target) clearInterval(t); }, 120);
+    });
+}
+window.addEventListener('scroll', runCount); runCount();
+
+// Sort by year
+document.getElementById('sortPapers').addEventListener('change', function () {
+    var list = document.getElementById('paperList');
+    var items = Array.prototype.slice.call(list.children);
+    items.sort(function (a, b) { return this.value === 'new' ? b.dataset.year - a.dataset.year : a.dataset.year - b.dataset.year; }.bind(this));
+    items.forEach(function (i) { list.appendChild(i); });
+});
+
+// Cite modal
+document.querySelectorAll('.cite-btn').forEach(function (b) {
+    b.addEventListener('click', function (e) {
+        e.preventDefault();
+        var c = b.closest('.paper-card');
+        var title = c.querySelector('h5').textContent;
+        var journal = c.querySelector('.paper-meta').textContent;
+        var year = c.querySelector('.tag').textContent;
+        document.getElementById('citeText').textContent = 'Dental Care. (' + year + '). ' + title + '. ' + journal + '.';
+        bootstrap.Modal.getOrCreateInstance(document.getElementById('citeModal')).show();
+    });
+});
+document.getElementById('copyCite').addEventListener('click', function () {
+    var btn = this, t = document.getElementById('citeText').textContent;
+    if (navigator.clipboard) navigator.clipboard.writeText(t);
+    btn.textContent = 'COPIED';
+    setTimeout(function () { btn.textContent = 'COPY CITATION'; }, 1500);
+});
+
+// Animate finding bars
+function runBars() {
+    document.querySelectorAll('.bar span').forEach(function (el) {
+        if (el.getBoundingClientRect().top < window.innerHeight) el.style.width = el.dataset.w + '%';
+    });
+}
+window.addEventListener('scroll', runBars); runBars();
+
+// BUY NOW buttons: open order popup, then send order on WhatsApp
+(function () {
+    var modalEl = document.getElementById('buyModal');
+    var form = document.getElementById('buyForm');
+    var current = {};
+    document.querySelectorAll('.buy-btn').forEach(function (b) {
+        b.addEventListener('click', function () {
+            current = { name: b.getAttribute('data-product'), price: b.getAttribute('data-price') };
+            document.getElementById('buyName').textContent = current.name;
+            document.getElementById('buyPrice').textContent = current.price;
+            form.classList.remove('was-validated');
+            form.reset();
+            bootstrap.Modal.getOrCreateInstance(modalEl).show();
+        });
+    });
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!form.checkValidity()) { form.classList.add('was-validated'); return; }
+        var msg = 'New order - Dental Care%0A' +
+            'Product: ' + encodeURIComponent(current.name) + '%0A' +
+            'Price: ' + encodeURIComponent(current.price) + '%0A' +
+            'Quantity: ' + encodeURIComponent(document.getElementById('buyQty').value) + '%0A' +
+            'Name: ' + encodeURIComponent(document.getElementById('buyCust').value.trim()) + '%0A' +
+            'Phone: ' + encodeURIComponent(document.getElementById('buyPhone').value.trim()) + '%0A' +
+            'Address: ' + encodeURIComponent(document.getElementById('buyAddr').value.trim());
+        window.open('https://wa.me/923002964311?text=' + msg, '_blank');
+        bootstrap.Modal.getOrCreateInstance(modalEl).hide();
+    });
+})();
+</script>
+</body>
+</html>
